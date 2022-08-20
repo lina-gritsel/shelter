@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+Georgian:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #545454;
+  font-family: "Georgia", sans-serif;
+}
+.container {
+  padding: 0 40px;
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 100%;
+}
+
+.wrapper {
+  background: linear-gradient(0deg, #211f20, #211f20),
+    radial-gradient(100% 215.42% at 0% 0%, #5b483a 0%, #262425 100%);
+}
+
+.header {
+  padding-top: 60px;
+}
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__links {
+  display: flex;
+  gap: 35px;
+}
+.nav__link {
+  color: #fafafa;
+  text-decoration: none;
+}
+.header__subtitle {
+  font-size: 13px;
+  color: #ffffff;
+  padding-top: 10px;
+  letter-spacing: 2px;
+  line-height: 110%;
+}
+.header__title {
+  color: #f1cdb3;
+  font-size: 32px;
+  letter-spacing: 2.7px;
+}
+
+.main {
+  padding-top: 60px;
+  margin-bottom: -3px;
+}
+.main__container {
+  display: flex;
+  justify-content: space-between;
+}
+.main__content {
+  max-width: 460px;
+  width: 100%;
+  padding-top: 163px;
+}
+.main__title {
+  font-size: 44px;
+  color: #ffffff;
+  padding-bottom: 42px;
+  max-width: 310px;
+  width: 100%;
+  line-height: 130%;
+}
+.main__desc {
+  color: #cdcdcd;
+  line-height: 160%;
+}
+.main__btn {
+  background: #f1cdb3;
+  font-family: "Georgia", sans-serif;
+  border-radius: 100px;
+  border: none;
+  width: 207px;
+  height: 52px;
+  margin-top: 42px;
+  font-size: 17px;
+}
+
+.about {
+  background: #fff;
+  padding: 80px 0 100px;
+}
+.about__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 120px;
+}
+.about__title {
+  font-size: 35px;
+  line-height: 130%;
+  max-width: 330px;
+  width: 100%;
+  letter-spacing: 3.1px;
+}
+.about__desc {
+  font-size: 15px;
+  line-height: 160%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.about__info {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  max-width: 430px;
+  width: 100%;
+}
