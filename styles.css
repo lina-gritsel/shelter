@@ -397,5 +397,18 @@ height: 593px;
   margin: 42px auto 0;
 }
 
-.abo
+.about__container{
+  flex-direction: column;
+  gap: 80px;
+}
+.pets__cards{
+  gap: 40px;
+}
+.pets__card__woody{
+  display: none;
+}
+.pets__list{
+  gap:12px;
+
+}
 }
