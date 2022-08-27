@@ -360,3 +360,42 @@ a{
   gap: 20px;
   font-family: "Georgia", sans-serif;
 }
+
+
+@media (max-width: 1240px) {
+  .container {
+    padding: 0 30px;
+  }
+  .main__container{
+    flex-direction: column;
+   
+  }
+  .main__content{
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .main__img{
+padding-top: 100px;
+max-width: 569px;
+height: 593px;
+  }
+.main__img-container{
+  display: flex;
+  justify-content:flex-end;
+}
+.main__desc{
+  max-width: 460px;
+  width: 100%;
+}
+.main__content-wrapper{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.main__btn{
+  margin: 42px auto 0;
+}
+
+.abo
+}
